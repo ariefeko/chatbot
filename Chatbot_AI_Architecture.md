@@ -1,5 +1,5 @@
 # Enterprise AI Chatbot Architecture
-## Lactoclub.co.id
+## Domain.co.id
 
 **Version:** 0.1 Draft  
 **Scope:** Website-only AI Chatbot  
@@ -9,7 +9,7 @@
 
 # 1. Executive Summary
 
-Lactoclub.co.id plans to implement an AI-powered chatbot on the website to help users find trusted parenting, nutrition, product, membership, and reward information more easily.
+Domain.co.id plans to implement an AI-powered chatbot on the website to help users find trusted parenting, nutrition, product, membership, and reward information more easily.
 
 The chatbot is not only a chat interface. It requires AI orchestration, knowledge retrieval, integration with website data, security controls, governance, monitoring, and human escalation when needed.
 
@@ -22,7 +22,7 @@ The solution should be designed as an enterprise AI assistant that is safe, reli
 ## Objectives
 
 - Improve website user experience
-- Help users find trusted Lactoclub information faster
+- Help users find trusted Domain information faster
 - Reduce repetitive customer service inquiries
 - Increase engagement with articles, products, campaigns, membership, and rewards
 - Provide safe escalation to Customer Service when AI cannot answer confidently
@@ -44,7 +44,7 @@ The chatbot should support:
 ## Channel
 
 ```text
-Lactoclub.co.id Website
+Domain.co.id Website
 ```
 
 ---
@@ -63,7 +63,7 @@ See detailed document:
 
 Summary:
 
-The AI model acts as the intelligence layer of the chatbot. It understands user intent, processes retrieved Lactoclub knowledge, and generates natural language responses.
+The AI model acts as the intelligence layer of the chatbot. It understands user intent, processes retrieved Domain knowledge, and generates natural language responses.
 
 The model should support:
 
@@ -90,7 +90,7 @@ Summary:
 
 AI Infrastructure provides the foundation for running the chatbot reliably, securely, and at enterprise scale.
 
-The chatbot should be implemented as a separate AI service, not tightly coupled to the Lactoclub website codebase.
+The chatbot should be implemented as a separate AI service, not tightly coupled to the Domain website codebase.
 
 Core components may include:
 
@@ -174,7 +174,7 @@ The chatbot must not provide medical diagnosis or unsupported claims.
 
 # 4. Integration Architecture
 
-The chatbot should integrate with relevant Lactoclub systems and website data sources.
+The chatbot should integrate with relevant Domain systems and website data sources.
 
 Potential integrations:
 
@@ -191,7 +191,7 @@ Potential integrations:
 High-level integration flow:
 
 ```text
-Lactoclub Website
+Domain Website
       ↓
 Chatbot Widget
       ↓
@@ -244,7 +244,7 @@ Production
 Recommended deployment concept:
 
 ```text
-Lactoclub Website
+Domain Website
       ↓
 Chatbot Widget
       ↓
